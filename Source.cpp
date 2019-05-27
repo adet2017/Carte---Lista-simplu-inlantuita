@@ -182,13 +182,13 @@ void main() {
 
 	Nod* lista = NULL;
 
-	const char* v1[1] = { "Corbea" };
-	const char* v2[2] = { "Zamfi", "Iancu" };
+	const char* v1[1] = { "Autor1" };
+	const char* v2[2] = { "Autor2", "Autor3" };
 	const char* v3[3] = { "Ion Ivan", "Marius Popa", "Paul Pocatilu" };
-	const char* v5[1] = { "Autor1" };
-	const char* v6[1] = { "Autor2" };
-	const char* v7[1] = { "Autor3" };
-	lista = inserareInceput(lista, creareCarte(1, "Curs PSI", 1, v1, 1000.f));
+	const char* v5[1] = { "Autor4" };
+	const char* v6[1] = { "Autor5" };
+	const char* v7[1] = { "Autor6" };
+	lista = inserareInceput(lista, creareCarte(1, "Curs", 1, v1, 1000.f));
 	lista = inserareInceput(lista, creareCarte(2, "Programare orientata obiect", 2, v2, 500.2f));
 	lista = inserareInceput(lista, creareCarte(3, "Structuri de date", 3, v3, 650.5f));
 	lista = inserareSortata(lista, creareCarte(6, "Carte1", 3, v5, 700));
